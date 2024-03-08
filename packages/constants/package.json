@@ -1,0 +1,17 @@
+{
+  "name": "@tape.xyz/constants",
+  "version": "0.0.0",
+  "private": true,
+  "license": "AGPL-3.0",
+  "main": "index.ts",
+  "scripts": {
+    "lint": "eslint . --ext .js,.ts,.tsx",
+    "typecheck": "tsc --pretty"
+  },
+  "devDependencies": {
+    "@tape.xyz/config": "*",
+    "@tape.xyz/lens": "*",
+    "@types/node": "^20.11.25",
+    "typescript": "^5.4.2"
+  }
+}
